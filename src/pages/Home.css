@@ -1,0 +1,62 @@
+.row{
+    background-color: #caf0f8;
+    margin: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 0;
+    margin-left: 260px;
+    border: 3px solid #03045e;
+    
+}
+
+.img > img{
+    height: 300px !important;
+    width: 250px !important;
+    border: 2px solid black;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.img>h3{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+.img>h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight:400;
+}
+
+.del{
+    border:none !important;
+}
+
+.createdby{
+    margin-top: 70px;
+    margin-bottom: 3px;
+    font-size: 18px;
+    color: #03045e;
+}
+
+.phoneNo{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #023e8a;
+
+}
+
+
+.price{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Didot;
+    margin-top: 0;
+    margin-bottom: 0;
+}
